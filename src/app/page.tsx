@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion';
+import Grid from './components/Grid';
 
 export default function Home() {
   return (
@@ -87,48 +88,50 @@ export default function Home() {
           <p className="mt-4 text-center text-gray-600">
             Explore my backend systems and API projects.
           </p>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="padx my-[20px]">
             {/* API 1 */}
-            <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-              <img
-                src="tradalite-api.png"
-                alt="API Project 1"
-                className="w-full rounded"
-              />
-              <h3 className="mt-4 text-2xl font-semibold text-gray-800">Fintech API</h3>
-              <p className="mt-2 text-gray-600">
-                A cross border payment solutions for remote workers; assign NGN, USD, EUR, etc. wallets to clients, accept payment from in USD, EUR, NGN, exchange one currency to the other, sell and buy giftcards, virtual local and foreign account numbers and credit cards
-              </p>
-              <a
-                href="https://documenter.getpostman.com/view/13650645/2sA3Bt3pps"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block text-blue-500 hover:underline"
-              >
-                View the doc {"(private repo)"} →
-              </a>
-            </div>
+            <Grid minw='300px'>
+              <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+                <img
+                  src="tradalite-api.png"
+                  alt="API Project 1"
+                  className="w-full rounded"
+                />
+                <h3 className="mt-4 text-2xl font-semibold text-gray-800">Fintech API</h3>
+                <p className="mt-2 text-gray-600">
+                  A cross border payment solutions for remote workers; assign NGN, USD, EUR, etc. wallets to clients, accept payment from in USD, EUR, NGN, exchange one currency to the other, sell and buy giftcards, virtual local and foreign account numbers and credit cards
+                </p>
+                <a
+                  href="https://documenter.getpostman.com/view/13650645/2sA3Bt3pps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block text-blue-500 hover:underline"
+                >
+                  View the doc {"(private repo)"} →
+                </a>
+              </div>
 
-            {/* API 2 */}
-            <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-              <img
-                src="emr-api.png"
-                alt="API Project 2"
-                className="w-full rounded"
-              />
-              <h3 className="mt-4 text-2xl font-semibold text-gray-800">Labour Ward Health Tracker</h3>
-              <p className="mt-2 text-gray-600">
-                An API for tracking user health metrics and habits in the labour ward.
-              </p>
-              <a
-                href="https://documenter.getpostman.com/view/13650645/2sA3BuWob6"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block text-blue-500 hover:underline"
-              >
-                View the doc {"(private repo)"} →
-              </a>
-            </div>
+              {/* API 2 */}
+              <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+                <img
+                  src="emr-api.png"
+                  alt="API Project 2"
+                  className="w-full rounded"
+                />
+                <h3 className="mt-4 text-2xl font-semibold text-gray-800">Labour Ward Health Tracker</h3>
+                <p className="mt-2 text-gray-600">
+                  An API for tracking user health metrics and habits in the labour ward.
+                </p>
+                <a
+                  href="https://documenter.getpostman.com/view/13650645/2sA3BuWob6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block text-blue-500 hover:underline"
+                >
+                  View the doc {"(private repo)"} →
+                </a>
+              </div>
+            </Grid>
           </div>
         </motion.div>
       </section>
