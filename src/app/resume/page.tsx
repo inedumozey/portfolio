@@ -1,4 +1,5 @@
 import React from "react";
+import Icon from "../components/Icon";
 
 export default function Resume() {
     return (
@@ -7,11 +8,10 @@ export default function Resume() {
                 <h1 className="text-4xl font-bold">Resume</h1>
                 <div className="container mx-auto mt-6 max-w-xl">
                     {/* Thumbnail of the Resume */}
-                    <img
-                        src="/resume-thumbnail.png"
-                        alt="Resume Thumbnail"
-                        className="w-full rounded shadow-md"
-                    />
+                    <span className="shadow-md inline-block px-[10px] py-[20px]">
+                        <Icon src="/resume-thumbnail.png" />
+                    </span>
+
                     {/* Download Button */}
                     <div className="mt-6">
                         <a

@@ -3,10 +3,11 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import Grid from './components/Grid';
+import ProjectCard from './components/ProjectCard';
 
 export default function Home() {
   return (
-    <div className='padx'>
+    <div>
       {/* Hero Section */}
       <section className="py-20 bg-blue-50 text-center">
         <motion.div
@@ -91,46 +92,23 @@ export default function Home() {
           <div className="padx my-[20px]">
             {/* API 1 */}
             <Grid minw='300px'>
-              <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                <img
-                  src="tradalite-api.png"
-                  alt="API Project 1"
-                  className="w-full rounded"
-                />
-                <h3 className="mt-4 text-2xl font-semibold text-gray-800">Fintech API</h3>
-                <p className="mt-2 text-gray-600">
-                  A cross border payment solutions for remote workers; assign NGN, USD, EUR, etc. wallets to clients, accept payment from in USD, EUR, NGN, exchange one currency to the other, sell and buy giftcards, virtual local and foreign account numbers and credit cards
-                </p>
-                <a
-                  href="https://documenter.getpostman.com/view/13650645/2sA3Bt3pps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-block text-blue-500 hover:underline"
-                >
-                  View the doc {"(private repo)"} →
-                </a>
-              </div>
+              <ProjectCard
+                title="Fintech API"
+                description="A cross border payment solutions for remote workers; assign NGN, USD, EUR, etc. wallets to clients, accept payment from in USD, EUR, NGN, exchange one currency to the other, sell and buy giftcards, virtual local and foreign account numbers and credit cards"
+                image="tradalite-api.png"
+                link="https://documenter.getpostman.com/view/13650645/2sA3Bt3pps"
+                button={`View the doc (private repo) →`}
+              />
 
               {/* API 2 */}
-              <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                <img
-                  src="emr-api.png"
-                  alt="API Project 2"
-                  className="w-full rounded"
-                />
-                <h3 className="mt-4 text-2xl font-semibold text-gray-800">Labour Ward Health Tracker</h3>
-                <p className="mt-2 text-gray-600">
-                  An API for tracking user health metrics and habits in the labour ward.
-                </p>
-                <a
-                  href="https://documenter.getpostman.com/view/13650645/2sA3BuWob6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-block text-blue-500 hover:underline"
-                >
-                  View the doc {"(private repo)"} →
-                </a>
-              </div>
+              <ProjectCard
+                title="Labour Ward Health Tracker"
+                description="An API for tracking user health metrics and habits in the labour ward"
+                image="emr-api.png"
+                link="https://documenter.getpostman.com/view/13650645/2sA3BuWob6"
+                button={`View the doc (private repo) →`}
+              />
+
             </Grid>
           </div>
         </motion.div>

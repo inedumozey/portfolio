@@ -11,19 +11,19 @@ export default function Projects() {
                     <Grid minw="300px">
                         <ProjectCard
                             title="RillVote"
-                            description="An online voting platform for associations to create free merchant accounts, manage polls, and conduct elections."
+                            description="RillVote is an innovative online voting solution to conduct secure, efficient, and transparent elections for organizations. Whether for corporate elections, associations, or community groups, RillVote is designed to enhance the election experience while maintaining high standards of security, accuracy, and accountability"
                             image="rillvote.png"
                             link="https://www.rillvote.com"
                         />
                         <ProjectCard
                             title="Tradalite"
-                            description="A dynamic platform for trading and business operations."
+                            description="A cross border payment solutions for remote workers; assign NGN, USD, EUR, etc. wallets to clients, accept payment from in USD, EUR, NGN, exchange one currency to the other, sell and buy giftcards, virtual local and foreign account numbers and credit cards"
                             image="tradalite.png"
                             link="https://tradalite.vercel.app"
                         />
                         <ProjectCard
                             title="EMR"
-                            description="An Electronic Health Tracker; it tracks patints' health records in the labour ward"
+                            description="An Electronic Health Tracker; it tracks patients' health records and labour activities in the labour ward"
                             image="emr_ui.png"
                             link="https://lwr-emr.vercel.app"
                         />
