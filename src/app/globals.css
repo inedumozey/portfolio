@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.transition {
+  transition: all .3s ease-out;
+}
+
+.padx {
+  @apply px-5 md:px-10
+}
+
+.hover-scale{
+  @apply hover:scale-[1.02];
+  transition: all .3s ease-out;
+}
+
+.hover:hover{
+  @apply opacity-fade
+}
+
+.ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ========tabel============ */
+.table-wrapper{
+  @apply w-full px-[1px] h-[calc(100vh-70px-140px)] m-auto py-[10px] overflow-x-auto 
+}
+
+.table-child{
+  @apply md:w-full w-[700px]
+}
+
+table {
+  @apply w-full text-[.7rem]
+}
+
+thead{
+  @apply bg-secondaryColor
+}
+
+th{
+  @apply p-[10px] text-white text-left
+}
+
+td{
+  @apply py-[6px] px-[5px]  text-dark border-[1px] 
+}
+
+tbody tr:nth-child(odd){
+  @apply bg-white text-primaryColor
+}
+tbody tr {
+  @apply hover:opacity-fade opacity-[1]
+}
+
+.scroll-x {
+  overflow-x: auto;
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+  overflow-y: hidden;
+}
+.scroll-x::-webkit-scrollbar {
+  display :none;
+}
+.scroll-y {
+  overflow-y: auto;
+  overflow-x: none;
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+}
+.scroll-y::-webkit-scrollbar {
+  display :none;
+}
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination{
+  top: unset !important;
+  right: unset !important;
+  bottom: unset !important;
+  left: unset !important;
+  position: unset !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  color: #1f8bd2;
+  font-weight: bold !important;
+  font-size: 1.3rem !important;
+}
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet{
+  background-color: #1f8bd2 !important;
+}
+
+.button-swiper{
+  display: flex !important;
+  width: 100%;
+  height: 50px;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgb(48,45,68);
+  padding-top: 20px;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+
+.animation-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-3 {
+  animation-delay: 0.6s;
+}
