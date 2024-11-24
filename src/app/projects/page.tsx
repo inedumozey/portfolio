@@ -23,7 +23,7 @@ export default function Projects() {
                         />
                         <ProjectCard
                             title="EMR"
-                            description="An Electronic Health Record to track patint health records in the labour ward"
+                            description="An Electronic Health Tracker; it tracks patints' health records in the labour ward"
                             image="emr_ui.png"
                             link="https://lwr-emr.vercel.app"
                         />
