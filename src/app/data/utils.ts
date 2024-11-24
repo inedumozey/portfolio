@@ -1,8 +1,7 @@
 class Utils {
     constructor() { }
     contact = {
-        name: "RillVote",
-        desc: 'Admin',
+        name: "DrMo",
     }
     swiper_data = []
 };

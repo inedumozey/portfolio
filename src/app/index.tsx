@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <nav className="bg-gray-800 text-white h-[70px]">
                     <div className="mx-auto flex justify-between items-center py-4 padx">
                         <h1 className="text-xl font-bold" >
-                            <Link href="/" className='hover'>{"<DrMo />"}</Link>
+                            <Link href="/" className='hover'>{`<${utils.contact.name} />`}</Link>
                         </h1>
                         <ul className="flex md:space-x-6 space-x-2">
                             <li>
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <div className='min-h-[calc(100vh-100px-70px)]'>{children}</div>
                 <footer className="bg-gray-800 min-h-[100px] text-white py-4 text-center text-[.9rem]">
                     <p>
-                        &copy; {currentYear > startedYear ? `${startedYear.toString()}-${currentYear.toString()}` : startedYear} {utils.contact.name} Inedu Moses. All rights reserved.
+                        &copy; {currentYear > startedYear ? `${startedYear.toString()}-${currentYear.toString()}` : startedYear} {utils.contact.name}.
                     </p>
                     <p>
                         Correct! ❤️
