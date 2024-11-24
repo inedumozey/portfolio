@@ -8,7 +8,7 @@ export default function Resume() {
                 <h1 className="text-4xl font-bold">Resume</h1>
                 <div className="container mx-auto mt-6 max-w-xl">
                     {/* Thumbnail of the Resume */}
-                    <span className="shadow-md inline-block px-[10px] py-[20px]">
+                    <span className="shadow-md inline-block">
                         <Icon src="/resume-thumbnail.png" />
                     </span>
 

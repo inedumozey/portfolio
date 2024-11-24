@@ -50,10 +50,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <div className='min-h-[calc(100vh-100px-70px)]'>{children}</div>
                 <footer className="bg-gray-800 min-h-[100px] text-white py-4 text-center text-[.9rem]">
                     <p>
-                        &copy; {currentYear > startedYear ? `${startedYear.toString()}-${currentYear.toString()}` : startedYear} {utils.contact.name}.
+                        &copy; {currentYear > startedYear ? `${startedYear.toString()}-${currentYear.toString()}` : startedYear} {utils.contact.name} ❤️
                     </p>
                     <p>
-                        Correct! ❤️
+                        Correct!
                     </p>
                 </footer>
             </AppContext.Provider >

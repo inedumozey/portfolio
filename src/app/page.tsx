@@ -22,13 +22,13 @@ export default function Home() {
             className="w-40 h-40 mx-auto rounded-full shadow-lg"
           />
           <h1 className="text-5xl font-bold mt-6 text-gray-800">Inedu Moses</h1>
-          <p className="mt-4 font-bold md:text-[2rem] text-[1.5rem] text-gray-600">
+          <p className="mt-4 font-bold md:text-[2rem] text-[1.5rem] text-gray-600 padx">
             Medical Doctor | Software Developer | Innovator
           </p>
-          <p className="mt-2 text-gray-500">
+          <p className="mt-2 text-gray-500 padx">
             Crafting scalable backend systems and APIs with a focus on reliability and performance.
           </p>
-          <div className="mt-8 flex justify-center space-x-4">
+          <div className="mt-8 flex justify-center space-x-4 padx">
             <a
               href="/resume.pdf"
               download
@@ -55,11 +55,11 @@ export default function Home() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl font-bold text-gray-800">Technical Skills</h2>
-          <p className="mt-4 text-gray-600">
+          <h2 className="text-4xl font-bold text-gray-800 padx">Technical Skills</h2>
+          <p className="mt-4 text-gray-600 padx">
             My expertise spans a wide range of technologies:
           </p>
-          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-700 font-semibold text-[1rem]">
+          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-700 font-semibold text-[1rem] padx">
             <span>Node.js</span>
             <span>NestJS</span>
             <span>Express.js</span>
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* Featured APIs Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 padx">
         <motion.div
           className="container mx-auto max-w-4xl"
           initial={{ opacity: 0 }}
@@ -123,12 +123,12 @@ export default function Home() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl font-bold text-gray-800">Why Hire Me?</h2>
-          <div className="text-center text-gray-600">
+          <h2 className="text-4xl font-bold text-gray-800 padx">Why Hire Me?</h2>
+          <div className="text-center text-gray-600 padx">
             With a unique blend of healthcare experience and technical expertise, I offer:
           </div>
 
-          <ul className="mt-6 space-y-4 text-left text-gray-700">
+          <ul className="mt-6 space-y-4 text-left text-gray-700 padx">
             <li className='text-center'>✅ Proven expertise in building scalable and secure backend systems.</li>
             <li className='text-center'>✅ Strong problem-solving skills honed through my medical career.</li>
             <li className='text-center'>✅ A passion for innovation and delivering impactful solutions.</li>
