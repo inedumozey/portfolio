@@ -30,17 +30,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                         </h1>
                         <ul className="flex md:space-x-6 space-x-2">
                             <li>
-                                <Link href="/projects" className={`hover:text-gray-400 ${path == "/projects" ? 'text-white' : 'text-gray-300'}`}>
+                                <Link href="/projects" className={`hover:text-gray-400 ${path == "/projects" ? 'text-white font-bold' : 'text-gray-300'}`}>
                                     Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/resume" className={`hover:text-gray-400 ${path == "/resume" ? 'text-white' : 'text-gray-300'}`}>
+                                <Link href="/resume" className={`hover:text-gray-400 ${path == "/resume" ? 'text-white font-bold' : 'text-gray-300'}`}>
                                     Resume
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className={`hover:text-gray-400 ${path == "/contact" ? 'text-white' : 'text-gray-300'}`}>
+                                <Link href="/contact" className={`hover:text-gray-400 ${path == "/contact" ? 'text-white font-bold' : 'text-gray-300'}`}>
                                     Contact
                                 </Link>
                             </li>

@@ -6,7 +6,7 @@ import Grid from './components/Grid';
 
 export default function Home() {
   return (
-    <div>
+    <div className='padx'>
       {/* Hero Section */}
       <section className="py-20 bg-blue-50 text-center">
         <motion.div

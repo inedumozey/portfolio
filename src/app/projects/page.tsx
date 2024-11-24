@@ -4,7 +4,7 @@ import Grid from "../components/Grid";
 
 export default function Projects() {
     return (
-        <div>
+        <div className="padx">
             <section className="py-10">
                 <h1 className="text-4xl font-bold text-center">Projects</h1>
                 <div className="padx my-[20px]">

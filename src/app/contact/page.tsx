@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <div>
+        <div className="padx">
             <section className="py-10">
                 <h1 className="text-4xl font-bold text-center">Contact Me</h1>
                 <div className="container mx-auto mt-6 max-w-lg text-center">

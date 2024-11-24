@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
     return (
-        <div>
+        <div className="padx">
             <section className="py-10 text-center">
                 <h1 className="text-4xl font-bold">Resume</h1>
                 <div className="container mx-auto mt-6 max-w-xl">
