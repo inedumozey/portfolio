@@ -22,10 +22,16 @@ export default function Projects() {
                             link="https://tradalite.vercel.app"
                         />
                         <ProjectCard
-                            title="EMR"
+                            title="Labour Ward Tracker"
                             description="An Electronic Health Tracker; it tracks patients' health records and labour activities in the labour ward"
                             image="emr_ui.png"
                             link="https://lwr-emr.vercel.app"
+                        />
+                        <ProjectCard
+                            title="EMR"
+                            description="An Electronic Health Record. login username: drmo, password: m"
+                            image="emr_main.png"
+                            link="https://waterdroplets.vercel.app"
                         />
                     </Grid>
                 </div>
