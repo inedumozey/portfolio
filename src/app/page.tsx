@@ -15,32 +15,54 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-        >
-          <img
-            src="profile.jpg"
-            alt="Inedu Moses"
-            className="w-40 h-40 mx-auto rounded-full shadow-lg"
-          />
-          <h1 className="text-5xl font-bold mt-6 text-gray-800">Inedu Moses</h1>
-          <p className="mt-4 font-bold md:text-[2rem] text-[1.5rem] text-gray-600 padx">
-            Medical Doctor | Software Developer | Innovator
-          </p>
-          <p className="mt-2 text-gray-500 padx">
+        >   
+        
+        <div className='flex flex-row'>
+              <div>
+              <img
+              src="profile.jpg"
+              alt="Moses Inedu"
+              className="w-40 h-40 mx-auto rounded-full shadow-lg"
+              />
+              <h1 className="text-5xl font-bold mt-6 text-gray-800">Inedu Moses</h1>
+              <p className="mt-4 font-bold md:text-[2rem] text-[1.5rem] text-gray-600 padx">
+              Medical Doctor | Software Developer | Innovator
+              </p>
+            </div>
+              
+              <div>
+                   <img
+                    src="MyPic.jpg"
+                    alt="Akan Daniel Akan"
+                    className="w-40 h-40 mx-auto rounded-full shadow-lg"
+                    />
+                    <h1 className="text-5xl font-bold mt-6 text-gray-800">Akan Daniel Akan</h1>
+                    <p className="mt-4 font-bold md:text-[2rem] text-[1.5rem] text-gray-600 padx">
+                    Medical Doctor | Software Developer | Innovator | Deep Thinker
+                    </p>
+              </div>
+        </div>
+        
+    
+        
+             
+
+          <p className="mt-10 text-gray-500 padx">
             Crafting scalable backend systems and APIs with a focus on reliability and performance.
           </p>
           <div className="mt-8 flex justify-center space-x-4 padx">
-            <a
+            {/* <a
               href="/resume.pdf"
               download
               className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
             >
               Download Resume
-            </a>
+            </a> */}
             <a
               href="/contact"
               className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300 transition"
             >
-              Contact Me
+              Contact Us
             </a>
           </div>
         </motion.div>
@@ -57,7 +79,7 @@ export default function Home() {
         >
           <h2 className="text-4xl font-bold text-gray-800 padx">Technical Skills</h2>
           <p className="mt-4 text-gray-600 padx">
-            My expertise spans a wide range of technologies:
+            Our expertise spans a wide range of technologies:
           </p>
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-gray-700 font-semibold text-[1rem] padx">
             <span>Node.js</span>
@@ -70,7 +92,7 @@ export default function Home() {
             <span>Redis</span>
             <span>REST APIs</span>
             <span>GraphQL</span>
-            <span>Clound computing</span>
+            <span>Cloud computing</span>
             <span>Version control systems</span>
           </div>
         </motion.div>
@@ -87,7 +109,7 @@ export default function Home() {
         >
           <h2 className="text-4xl font-bold text-center text-gray-800">Backend APIs</h2>
           <p className="mt-4 text-center text-gray-600">
-            Explore my backend systems and API projects.
+            Explore our backend systems and API projects.
           </p>
           <div className="padx my-[20px]">
             {/* API 1 */}
@@ -123,14 +145,14 @@ export default function Home() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl font-bold text-gray-800 padx">Why Hire Me?</h2>
+          <h2 className="text-4xl font-bold text-gray-800 padx">Why Hire Us?</h2>
           <div className="text-center text-gray-600 padx">
-            With a unique blend of healthcare experience and technical expertise, I offer:
+            With a unique blend of healthcare experience and technical expertise, we offer:
           </div>
 
           <ul className="mt-6 space-y-4 text-left text-gray-700 padx">
             <li className='text-center'>✅ Proven expertise in building scalable and secure backend systems.</li>
-            <li className='text-center'>✅ Strong problem-solving skills honed through my medical career.</li>
+            <li className='text-center'>✅ Strong problem-solving skills honed through our medical career.</li>
             <li className='text-center'>✅ A passion for innovation and delivering impactful solutions.</li>
             <li className='text-center'>✅ Excellent collaboration and communication skills.</li>
           </ul>

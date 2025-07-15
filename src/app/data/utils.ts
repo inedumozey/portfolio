@@ -1,7 +1,7 @@
 class Utils {
     constructor() { }
     contact = {
-        name: "DrMo",
+        name: "Drophyte",
     }
     swiper_data = []
 };
