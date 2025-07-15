@@ -12,10 +12,25 @@ export default function Resume() {
                         <Icon src="/resume-thumbnail.png" />
                     </span>
 
-                    {/* Download Button */}
-                    <div className="mt-6">
+                      <div className="mt-6 mb-6">
                         <a
                             href="/resume.pdf" // Replace with your actual resume file
+                            download
+                            className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                        >
+                            Download Full Resume
+                        </a>
+                    </div>
+
+                     <span className="shadow-md inline-block">
+                        <Icon src="/Akan_resumee.png" />
+                    </span>
+
+                    {/* Download Button */}
+                  
+                       <div className="mt-6">
+                        <a
+                            href="/Akan_resumee.pdf" // Replace with your actual resume file
                             download
                             className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
                         >

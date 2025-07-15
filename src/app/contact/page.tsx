@@ -4,19 +4,33 @@ export default function Contact() {
     return (
         <div className="padx">
             <section className="py-10">
-                <h1 className="text-4xl font-bold text-center">Contact Me</h1>
+                <h1 className="text-4xl font-bold text-center">Contact Us</h1>
                 <div className="container mx-auto mt-6 max-w-lg text-center">
                     {/* Contact Details */}
-                    <p className="text-gray-700">
-                        <strong>Phone:</strong> <a href="tel:+2348036000347" className="text-blue-500 hover:underline">+2348036000347</a>
-                    </p>
-                    <p className="text-gray-700 mt-2">
-                        <strong>Email:</strong> <a href="mailto:inedumozey@gmail.com" className="text-blue-500 hover:underline">inedumozey@gmail.com</a>
-                    </p>
-                    <p className="text-gray-700 mt-2">
-                        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/inedumozey" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">linkedin.com/in/inedumozey</a>
-                    </p>
-
+                    <div className="flex items-start flex-col">
+                        <p className="font-bold text-blue-600/50">Dr Moses Inedu</p>
+                        <p className="text-gray-700">
+                            <strong>Phone:</strong> <a href="tel:+2348036000347" className="text-blue-500 hover:underline">+2348036000347</a>
+                        </p>
+                        <p className="text-gray-700 mt-2">
+                            <strong>Email:</strong> <a href="mailto:inedumozey@gmail.com" className="text-blue-500 hover:underline">inedumozey@gmail.com</a>
+                        </p>
+                        <p className="text-gray-700 mt-2">
+                            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/inedumozey" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">linkedin.com/in/inedumozey</a>
+                        </p>
+                    </div>
+                    <br />
+                    <div className="flex items-start flex-col">
+                        <p className="font-bold text-blue-600/50">Dr Akan Daniel Akan</p>
+                        <p className="text-gray-700">
+                            <strong>Phone:</strong> <a href="tel:+2348123751069" className="text-blue-500 hover:underline">+2348123751069</a>
+                        </p>
+                        <p className="text-gray-700 mt-2">
+                            <strong>Email:</strong> <a href="mailto:inedumozey@gmail.com" className="text-blue-500 hover:underline">akandaniel2526@gmail.com</a>
+                        </p>
+                    </div>
+                    
+                    
                     {/* Contact Form */}
                     <form
                         action="https://formspree.io/f/your-form-id"
